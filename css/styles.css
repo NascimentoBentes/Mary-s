@@ -81,7 +81,8 @@ a {
 
 .nav__logo, 
 .nav__burger, 
-.nav__close {
+.nav__close,
+.nav__cart {
   color: var(--white-color);
 }
 
@@ -150,7 +151,7 @@ a {
   }
 }
 
-.nav__link {
+.nav__link, .nav__cart {
   color: var(--white-color);
   background-color: var(--black-color);
   font-weight: var(--font-semi-bold);
